@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter a number and click OK:</p>
+<input id="id1" type="string">
+<input id="id2" type="string">
+<input id="id3" type="number">
+<input id="id4" type="number" value=15>
+<button onclick="myFunction()">OK</button>
+
+<p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+<script>
+    
+</script>
+<script>
+/*function myFunction() {
+    var inpObj = document.getElementById("id1");
+    if (!inpObj.checkValidity()) {
+        document.getElementById("demo").innerHTML = inpObj.validationMessage;
+    } else {
+    	alert(inpObj.value);
+    } 
+} 
+*/
+</script>
+
+<script>
+
+function myFunction() {
+    // alert(id1.value);
+    document.getElementById("demo").innerHTML = id1.value + id2.value + id3.value + id4.value;
+
+}
+</script>
+
+
+</body>
+</html
